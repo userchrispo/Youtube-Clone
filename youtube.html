@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.com Clone</title>
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+
+    <link rel="stylesheet" href="styles/general.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/menu.svg" />
+        <img class="youtube-logo" src="icons/youtube-logo.svg" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upolad-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="apps-icon-container">
+          <img class="apps-icon" src="icons/youtube-apps.svg" />
+          <div class="tooltip">Youtube apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notis-icon" src="icons/notifications.svg" />
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+
+        <div class="profile-pic-container">
+          <img class="ladopfp" src="channel-pictures/ladopfp.jpg" />
+        </div>
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img class="sidebar-icon" src="icons/home.svg" />
+
+        <div class="sidebar-icon-name">Home</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img class="sidebar-icon" src="icons/explore.svg" />
+
+        <div class="sidebar-icon-name">Explore</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img class="sidebar-icon" src="icons/subscriptions.svg" />
+
+        <div class="sidebar-icon-name">Subscriptions</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img class="sidebar-icon" src="icons/originals.svg" />
+
+        <div class="sidebar-icon-name">Originals</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img class="sidebar-icon" src="icons/youtube-music.svg" />
+
+        <div class="sidebar-icon-name">Youtube Music</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img class="sidebar-icon" src="icons/library.svg" />
+
+        <div class="sidebar-icon-name">Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/uBB_-wEeQ0Q?si=OnHTF_I59CXUSF5j">
+              <img class="thumbnail" src="thumbnails/thumbnail-2.avif" />
+            </a>
+
+            <div class="video-time">2:35</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/channel/UCByOQJjav0CUDwxCk-jVNRQ"
+              >
+                <img class="profile-pic" src="channel-pictures/channel-1.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                style="text-decoration: none; text-decoration-color: black"
+                href="https://youtu.be/uBB_-wEeQ0Q?si=OnHTF_I59CXUSF5j"
+              >
+                <p class="video-title">Cece's Interlude</p>
+              </a>
+
+              <p class="video-author">Drake</p>
+
+              <p class="video-stats">1.5M views &#183; 6 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=NCrfoRiFtp8&list=RDNCrfoRiFtp8&start_radio=1"
+            >
+              <img class="thumbnail" src="allthumbnails/hq720.avif" />
+            </a>
+            <div class="video-time">4:14</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@TheWeeknd">
+                <img class ="profile-pic" src=channel-pictures/channel-2.jpg>
+              </a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">The Weekend - Material Girl</p>
+
+              <p class="video-author">The Weeknd</p>
+
+              <p class="video-stats">52k views &#183; 8 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/U-N8gJ4HdYc?si=EcuamMe6ghVVYSIK">
+              <img class="thumbnail" src="thumbnails/thumbnail-3.avif" />
+            </a>
+            <div class="video-time">3:27</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/channel/UCRY5dYsbIN5TylSbd7gVnZg"
+              >
+                <img
+                  class="profile-pic"
+                  src="channel-pictures/channel-3.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">Good Life</p>
+
+              <p class="video-author">Kanye West</p>
+
+              <p class="video-stats">4.5M views &#183; 6 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/isdeLJy81YU?si=2RyWIXO6fp9uJOIy">
+              <img class="thumbnail" src="thumbnails/thumbnail-4.avif" />
+            </a>
+            <div class="video-time">1:01:49</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@VIRTUALJAPAN">
+                <img class ="profile-pic" src=channel-pictures/channel-4.jpg>
+              </a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                Japan Typhoon Rainy Night Walk // 4K HDR FUKUOKA
+              </p>
+
+              <p class="video-author">VIRTUAL JAPAN</p>
+
+              <p class="video-stats">137k views &#183; 2 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/uFAAic-Jhc0?si=L9pfU2VHHhhe7XbI">
+              <img class="thumbnail" src="thumbnails/thumbnail-5.avif" />
+            </a>
+            <div class="video-time">4:17</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@krizzmaa">
+                <img class="profile-pic" src="channel-pictures/channel-5.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">work hard, you won't regret it</p>
+
+              <p class="video-author">Steve Nam</p>
+
+              <p class="video-stats">58k views &#183; 1 month ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/AgNI_CUZRqo?si=-Xm5-bDRYhSlBeOP">
+              <img class="thumbnail" src="thumbnails/thumbnail-6.avif" />
+            </a>
+
+            <div class="video-time">18:08</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@the.ashfiles">
+                <img class ="profile-pic" src=channel-pictures/channel-6.jpg>
+              </a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">notes on coming back to YOUR life.</p>
+
+              <p class="video-author">The Ash Files</p>
+
+              <p class="video-stats">665k views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/7M96Z_wXRlY?si=fIMdlEHMKQ1jEiG6">
+              <img class="thumbnail" src="thumbnails/thumbnail-7.avif" />
+            </a>
+            <div class="video-time">9:24</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@muratorigabriele">
+                <img class="profile-pic" src="channel-pictures/channel-7.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">$0 Startup to $20M Startup</p>
+
+              <p class="video-author">Gabriele Muratori</p>
+
+              <p class="video-stats">3.3k views &#183; 1 day ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/R8e37qXtNHo?si=77xLLLRyht5xErij">
+              <img class="thumbnail" src="thumbnails/thumbnail-8.avif" />
+            </a>
+            <div class="video-time">4:31</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@TheMathSorcerer">
+                <img class="profile-pic" src="channel-pictures/channel-8.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                VANISH. STUDY MATH. MASTER PHYSICS. LEARN TO CODE. RETURN
+                UNSTOPPABLE.
+              </p>
+
+              <p class="video-author">The Math Sorcerer</p>
+
+              <p class="video-stats">26k views &#183; 3 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/sMpNiGVeZpE?si=u33FdyOffK_gbc6H">
+              <img class="thumbnail" src="thumbnails/thumbnail-9.avif" />
+            </a>
+            <div class="video-time">2:26</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@nappyboyhooper1626">
+                <img class="profile-pic" src="channel-pictures/channel-9.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">Nujabes - “Gone are the days”</p>
+
+              <p class="video-author">Nappyboyhooper</p>
+
+              <p class="video-stats">3k views &#183; 7 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/8PsG3ycLx3o?si=sO7PDChIivBchnFW">
+              <img class="thumbnail" src="thumbnails/thumbnail-10.avif" />
+            </a>
+            <div class="video-time">4:12</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@jeraeltheofficial">
+                <img
+                  class="profile-pic"
+                  src="channel-pictures/channel-10.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                "Samurai Champloo - Shiki No Uta" (Nujabes) - The Brotet
+              </p>
+
+              <p class="video-author">Jeraël</p>
+
+              <p class="video-stats">9.5M views &#183; 11 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/Auuk1y4DRgk?si=SOLxiUAYe2tsjko8">
+              <img class="thumbnail" src="thumbnails/thumbnail-11.avif" />
+            </a>
+            <div class="video-time">42:29</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@dr.michaelsugrue">
+                <img
+                  class="profile-pic"
+                  src="channel-pictures/channel-11.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Marcus Aurelius' Meditations: The Stoic Ideal
+              </p>
+
+              <p class="video-author">Michael Sugrue</p>
+
+              <p class="video-stats">2.1M views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/xJBwIIeebho?si=pzRupVJEF0x_HNHZ">
+              <img class="thumbnail" src="thumbnails/thumbnail-12.avif" />
+            </a>
+            <div class="video-time">48:30</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@dr.michaelsugrue">
+                <img class="profile-pic" src="channel-pictures/channel-11.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">Plato's Symposium: The Dialectic of Reason, Love, and Wisdom</p>
+
+              <p class="video-author">Michael Sugrue</p>
+
+              <p class="video-stats">177k views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
